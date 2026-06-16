@@ -1,0 +1,10 @@
+command: "eco give {player} {amount}"
+
+item:
+  material: PAPER
+  display-name: "<white>Cheque de</white> <b><gradient:green:aqua>DINERO</gradient></b>"
+  customModelData: 0
+  lore:
+    - "<dark_gray>Cheque</dark_gray>"
+    - ""
+    - "<gray>Monto: <gold>${amount}</gold>"

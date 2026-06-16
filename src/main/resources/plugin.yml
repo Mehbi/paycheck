@@ -1,9 +1,13 @@
 name: paycheck
 version: '${version}'
 
-main: click.mevi.dev.paycheck.Paycheck
+main: click.mevi.dev.paycheck.PaycheckPlugin
 api-version: '1.20.6'
 load: POSTWORLD
 
 authors: [ Mehbi ]
 website: https://github.com/Mehbi/
+
+commands:
+  paycheck:
+    description: Use the plugin

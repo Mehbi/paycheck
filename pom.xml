@@ -64,5 +64,10 @@
             <version>1.20.6-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>dev.mevi.click.api</groupId>
+            <artifactId>replaceforme</artifactId>
+            <version>1.0.1</version>
+        </dependency>
     </dependencies>
 </project>
